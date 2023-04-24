@@ -39,6 +39,10 @@ img {
   }
 }
 
+.change-color{
+  background-color: rgba(42, 138, 157, 0.9);
+}
+
 /* 1rem=1rem */
 /* 単位 はremを使用 */
 html { 
@@ -115,7 +119,6 @@ html {
           width: 100%;
           z-index: 100;
           transition: all .5s;
-          background-color: rgba(42, 138, 157, 0.9);
           @include tablet {
             background-color: rgba(80, 49, 216, 0.9);
           }
