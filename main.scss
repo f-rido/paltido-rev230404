@@ -516,6 +516,7 @@ html {
 
                 .invisible {
                   border: 0.1rem solid #777;
+                  text-align: center;
                   @include mobile {
                     display: none;
                     border: none;
